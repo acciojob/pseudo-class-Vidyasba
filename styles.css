@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+#psuedo-classes::before{
+	content:"Before Element";
+	color:red;
+	font-size:20px;
+	font-weight:500;
+}
+#psuedo-classes::after{
+	color:red;
+	font-size:20px;
+	font-weight:500;
+	content:"After Element";
+}
